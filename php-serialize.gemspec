@@ -11,10 +11,11 @@ Gem::Specification.new do |spec|
 	spec.files = Dir['lib/*.rb']
 	#spec.author = "Thomas Hurst"
 	#spec.email = "tom@hur.st"
-	#spec.homepage = "http://www.aagh.net/projects/ruby-php-serialize"
+	spec.homepage = "http://www.aagh.net/projects/ruby-php-serialize"
 	spec.description = <<-EOF
 	This gem is a forked from original to manage the library in our private gem server.
-	
+	URL: https://github.com/geckoboard/php-serialize
+
 	This module provides two methods: PHP.serialize() and PHP.unserialize(), both
 	of which should be compatible with the similarly named functions in PHP.
 
