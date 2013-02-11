@@ -1,3 +1,10 @@
+This is a forked repo to manage the library in our private gem server.
+
+The version in rubygem doesn't include the following improvement.
+
+https://github.com/jqr/php-serialize/pull/7
+
+
 Ruby PHP Serializer
 ===================
 
