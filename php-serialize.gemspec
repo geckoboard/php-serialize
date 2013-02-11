@@ -1,6 +1,11 @@
+# -*- encoding: utf-8 -*-
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'version'
+
 Gem::Specification.new do |spec|
 	spec.name = "gecko-php-serialize"
-	spec.version = "1.1.1"
+	spec.version = PhpSerialize::VERSION
 	spec.summary = "Ruby analogs to PHP's serialize() and unserialize() functions"
 	spec.require_path = 'lib/'
 	spec.files = Dir['lib/*.rb']
