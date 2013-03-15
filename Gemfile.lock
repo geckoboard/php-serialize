@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    gecko-php-serialize (1.1.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rake (0.9.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gecko-php-serialize!
+  rake
